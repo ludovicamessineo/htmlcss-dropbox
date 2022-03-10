@@ -7,7 +7,7 @@
 
 /* COMMON */
 html {
-    font-size: 62,5%;
+    font-size: 100%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -32,6 +32,17 @@ img {
 
 ul {
     list-style: none;
+}
+
+.button {
+    background-color: #2700FF;
+    font-size: .8em;
+    color: white;
+    padding: .4em 1em;
+}
+
+.mt-8 {
+    margin-top: 8em;
 }
 
 /* HEADER */
@@ -70,40 +81,34 @@ a {
     color: inherit;
 }
 
-.button {
+.header-button {
     margin: 0 1em;
-    background-color: #2700FF;
-    font-size: .8em;
-    color: white;
-    padding: .4em 1em;
 }
 
 /* JUMBOTRON */
 .jumbotron {
     background-color: #b4d0e7;
-    height: 400px;
+    height: 500px;
 }
 
 .jumbo-container {
     width: 90%;
     margin: auto;
+    padding: 2em;
 }
 
 .jumbo-title {
-
-    /* TEST */
-    border: 1px solid fuchsia;
-}
-
-.jumbo-col > .col {
-
-    /* TEST */
-    height: 300px;
-    border: 1px solid orange;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .col-text {
     width: 35%;
+}
+
+.small-font {
+    font-size: .7em;
+    margin-top: 1em;
 }
 
 .col-img {
@@ -113,9 +118,6 @@ a {
 /* BUSINESS SECTION */
 .card-title {
 
-    /* TEST */
-    height: 70px;
-    border: 1px solid blueviolet;
 }
 
 .card-col > .col {
