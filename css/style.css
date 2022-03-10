@@ -11,6 +11,10 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    width: 100%;
+
+}
 .clearfix::after {
     content: "";
     display: table;
@@ -26,12 +30,13 @@ html {
     margin: 0 auto;
 }
 
+ul {
+    list-style: none;
+}
+
 /* HEADER */
 .header-menu > .col{
-
-    /* TEST */
-    height: 80px;
-    border: 2px solid pink;
+    height: 70px;
 }
 
 .col-logo {
@@ -40,12 +45,42 @@ html {
 
 .col-btn {
     width: 50%;
+    text-align: right;
 }
 
+#logo {
+    width: 100px;
+    vertical-align: middle;
+    margin-left: 1em;
+}
+
+ul, li {
+    display: inline-block;
+}
+
+li {
+    padding-left: 1em;
+    line-height: 70px;
+    color: black;
+    font-size: .9em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    margin: 0 1em;
+    background-color: #2700FF;
+    font-size: .8em;
+    color: white;
+    padding: .4em 1em;
+}
 
 /* JUMBOTRON */
 .jumbotron {
-    background-color: lightblue;
+    background-color: #b4d0e7;
     height: 400px;
 }
 
@@ -141,7 +176,7 @@ html {
 
 .col-top, .col-bottom {
     width: calc((100% / 3) - 40px);
-    
+
     /* TEST */
     height: 100px;
     border: 1px solid red;
@@ -151,7 +186,59 @@ html {
     margin: 0 20px;
 }
 
+/* CLIENT SECTION */
+.client-container {
+    width: 100%;
+}
 
+.client-text {
+
+    /* TEST */
+    height: 50px;
+    border: 1px solid brown;
+}
+
+.client-container > .col {
+
+    /* TEST */
+    height: 200px;
+    border: 1px solid black;
+}
+
+.col-client-img {
+    width: 30%;
+}
+
+.col-client-text {
+    width: 40%;
+}
+
+/* CALL TO ACTION */
+.cta-bg {
+    height: 200px;
+    background-color: lightblue;
+}
+
+.container-footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.col-cta {
+    width: 50%;
+
+    /* TEST */
+    height: 90px;
+    border: 1px solid yellow;
+}
 
 
 /* FOOTER */
+.container-footer > .col {
+    width: 20%;
+
+    /* TEST */
+    height: 130px;
+    border: 1px solid darkred;
+}
+
