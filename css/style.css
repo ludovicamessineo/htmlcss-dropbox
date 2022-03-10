@@ -30,9 +30,33 @@
     width: 50%;
 }
 
-/* MAIN */
-
 
 /* JUMBOTRON */
+.jumbotron {
+    background-color: lightblue;
+    height: 400px;
+}
+
+.jumbo-title {
+
+    /* TEST */
+    border: 1px solid fuchsia;
+}
+
+.jumbo-col > .col {
+
+    /* TEST */
+    height: 300px;
+    border: 1px solid orange;
+}
+
+.col-text {
+    width: 35%;
+}
+
+.col-img {
+    width: 65%;
+}
+
 
 /* FOOTER */
