@@ -84,11 +84,15 @@ html {
 }
 
 .card-col > .col {
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 60px);
 
     /* TEST */
     height: 600px;
     border: 1px solid blue;
+}
+
+.card-col-center {
+    margin: 0 30px;
 }
 
 .card-team > .col {
@@ -106,5 +110,48 @@ html {
 .col-team-btn {
     width: 20%;
 }
+
+/* PARTNER SECTION  */
+.partner {
+    margin-top: 2em;
+}
+.partner .col {
+
+    /* TEST */
+    height: 200px;
+    border: 1px solid brown;
+}
+
+.col-partner-img {
+    width: 60%;
+}
+
+.col-partner-text{
+    width: 40%;
+}
+
+/* OPERATION SECTION */
+.operation-cards h2 {
+    margin: 2em 0;
+
+    /* TEST */
+    height: 50px;
+    border: 1px solid slategrey;
+}
+
+.col-top, .col-bottom {
+    width: calc((100% / 3) - 40px);
+    
+    /* TEST */
+    height: 100px;
+    border: 1px solid red;
+}
+
+.col-op-center {
+    margin: 0 20px;
+}
+
+
+
 
 /* FOOTER */
