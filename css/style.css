@@ -4,7 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* COMMON */
+html {
+    font-size: 62,5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -14,6 +20,12 @@
 .col {
     float: left;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 .header-menu > .col{
 
@@ -37,6 +49,11 @@
     height: 400px;
 }
 
+.jumbo-container {
+    width: 90%;
+    margin: auto;
+}
+
 .jumbo-title {
 
     /* TEST */
@@ -58,5 +75,36 @@
     width: 65%;
 }
 
+/* BUSINESS SECTION */
+.card-title {
+
+    /* TEST */
+    height: 70px;
+    border: 1px solid blueviolet;
+}
+
+.card-col > .col {
+    width: calc(100% / 3);
+
+    /* TEST */
+    height: 600px;
+    border: 1px solid blue;
+}
+
+.card-team > .col {
+
+    /* TEST */
+    margin-top: 2em;
+    height: 60px;
+    border: 1px solid greenyellow;
+}
+
+.col-team-text {
+    width: 80%;
+}
+
+.col-team-btn {
+    width: 20%;
+}
 
 /* FOOTER */
