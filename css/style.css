@@ -26,7 +26,7 @@ img {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -45,7 +45,24 @@ ul {
     margin-top: 8em;
 }
 
+h3 {
+    padding-bottom: 1.5em;
+}
+
+p {
+    font-size: .9em;
+}
+
 /* HEADER */
+.header-menu {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
 .header-menu > .col{
     height: 70px;
 }
@@ -89,21 +106,28 @@ a {
 .jumbotron {
     background-color: #b4d0e7;
     height: 500px;
+    margin-top: 3em;
 }
 
 .jumbo-container {
     width: 90%;
+    max-width: 1200px;
     margin: auto;
     padding: 2em;
 }
 
 .jumbo-title {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
+    padding-bottom: 1em;
 }
 
 .col-text {
     width: 35%;
+}
+
+.jumbo-btn {
+    display: inline-block;
 }
 
 .small-font {
@@ -115,21 +139,49 @@ a {
     width: 65%;
 }
 
-/* BUSINESS SECTION */
-.card-title {
+.jumbo-img {
+    width: 85%;
+}
 
+/* BUSINESS SECTION */
+.card-title form {
+    margin: 2em 0;
+}
+
+.card-col {
+    width: 100%;
 }
 
 .card-col > .col {
-    width: calc((100% / 3) - 60px);
-
-    /* TEST */
-    height: 600px;
-    border: 1px solid blue;
+    width: calc((100% / 3) - 30px);
 }
 
 .card-col-center {
-    margin: 0 30px;
+    margin: 0 45px;
+}
+
+.card-col > .col {
+    min-height: 600px;
+    border: 1px solid lightgrey;
+}
+
+.card-title-abbonamento {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.symbols {
+    display: inline-block;
+    color: black;
+}
+
+.card-title-abbonamento > span{
+    padding: 1em 0;
+    
+}
+
+.card-abbonamento {
+    padding: 1em;
 }
 
 .card-team > .col {
@@ -152,11 +204,15 @@ a {
 .partner {
     margin-top: 2em;
 }
+
+.col-partner-img img {
+    width: 85%;
+}
+
 .partner .col {
 
     /* TEST */
-    height: 200px;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
 }
 
 .col-partner-img {
