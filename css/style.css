@@ -41,17 +41,22 @@ ul {
     padding: .4em 1em;
 }
 
-.mt-8 {
-    margin-top: 8em;
+.btn-inline-block {
+    display: inline-block;
 }
 
-h3 {
-    padding-bottom: 1.5em;
+.mt-8 {
+    margin-top: 8em;
 }
 
 p {
     font-size: .9em;
 }
+
+h3 {
+    padding-bottom: 1em;
+}
+
 
 /* HEADER */
 .header-menu {
@@ -86,7 +91,7 @@ ul, li {
     display: inline-block;
 }
 
-li {
+.header-menu li {
     padding-left: 1em;
     line-height: 70px;
     color: black;
@@ -126,10 +131,6 @@ a {
     width: 35%;
 }
 
-.jumbo-btn {
-    display: inline-block;
-}
-
 .small-font {
     font-size: .7em;
     margin-top: 1em;
@@ -161,13 +162,8 @@ a {
 }
 
 .card-col > .col {
-    min-height: 600px;
+    min-height: 700px;
     border: 1px solid lightgrey;
-}
-
-.card-title-abbonamento {
-    text-align: center;
-    border-bottom: 1px solid lightgray;
 }
 
 .symbols {
@@ -175,13 +171,51 @@ a {
     color: black;
 }
 
-.card-title-abbonamento > span{
-    padding: 1em 0;
-    
+.card-title-abbonamento {
+    padding: 1em 2em;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
 }
 
-.card-abbonamento {
+.card-info {
     padding: 1em;
+}
+
+.mt-8 li,
+.mt-8 p {
+    font-size: .7em;
+    padding-bottom: 1em;
+}
+
+.btn-center {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.link-abbonamento > p {
+    padding: 1em 0;
+}
+
+.link-abbonamento > .bb-grey {
+    display: inline-block;
+    font-size: .8em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid lightgray;
+}
+
+.link {
+    font-size: .8em;
+    text-decoration: underline;
+    color: #2700FF;
+}
+
+.ul-abbonamento > :first-child {
+    padding-top: 2em;
+}
+
+.check-symbol {
+    display: inline-block;
+    color: #2700FF;
 }
 
 .card-team > .col {
