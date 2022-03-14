@@ -41,6 +41,15 @@ ul {
     padding: .4em 2em;
 }
 
+.button-white {
+    background-color: white;
+    font-size: .8em;
+    color: black;
+    padding: .4em .4em;
+    min-width: 200px;
+    text-align: center;
+}
+
 .btn-inline-block {
     display: inline-block;
 }
@@ -66,6 +75,7 @@ h3 {
     left: 0;
     right: 0;
     background-color: white;
+    z-index: 100;
 }
 
 .header-menu > .col{
@@ -181,8 +191,8 @@ a {
     padding: 1em;
 }
 
-.mt-8 li,
-.mt-8 p {
+.business-container li,
+.business-container p {
     font-size: .7em;
     padding-bottom: 1em;
 }
@@ -247,10 +257,6 @@ a {
 }
 
 /* PARTNER SECTION  */
-.partner {
-    margin-top: 2em;
-}
-
 .col-partner-img img {
     width: 85%;
 }
@@ -261,6 +267,16 @@ a {
 
 .col-partner-text{
     width: 40%;
+    padding: 2em 0;
+}
+
+.col-partner-text > p {
+    font-size: .9em;
+    padding-bottom: 2em;
+}
+
+.btn-border {
+    border: 1px solid black;
 }
 
 /* OPERATION SECTION */
@@ -312,6 +328,7 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .col-a {
@@ -349,7 +366,7 @@ a {
 
 .col-client-text {
     padding: 2em;
-    text-overflow: scroll;
+    overflow: auto;
 }
 .col-client-text > img {
     width: 20%;
@@ -366,20 +383,49 @@ a {
     background-color: #b4d0e7;
 }
 
-.col-cta {
-    width: 50%;
+.cta-text {
+    width: 65%;
+}
+
+.cta-btn {
+    width: 35%;
 }
 
 .col-cta > h2 {
     color: #61082b;
-    padding: 4em 0;
+
 }
 
-.col-cta > a {
-    padding: 4em 0;
+.col-cta {
+    padding: 5em 2em;
 }
+
+/* DOMANDE SECTION  */
+.question > li {
+    padding: 1.5em 0;
+}
+
+.question > li {
+    border-top: 1px solid lightgray;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.arrow {
+    padding-left: 20em;
+    padding-right: 1em;
+}
+
+.question > li:last-child {
+    border-bottom: 1px solid lightgray;
+}
+
 
 /* FOOTER */
+footer {
+    background-color: black;
+}
+
 .container-footer {
     width: 90%;
     margin: 0 auto;
