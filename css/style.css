@@ -41,6 +41,10 @@ ul {
     padding: .4em 2em;
 }
 
+.button:hover {
+    background-color: #159ff0;
+}
+
 .button-white {
     background-color: white;
     font-size: .8em;
@@ -423,19 +427,36 @@ a {
 
 /* FOOTER */
 footer {
+    height: 400px;
     background-color: black;
+    color: white;
 }
 
 .container-footer {
     width: 90%;
     margin: 0 auto;
+    padding: 4em;
 }
 
 .container-footer > .col {
     width: 20%;
-
-    /* TEST */
-    height: 130px;
-    border: 1px solid darkred;
+    min-height: 250px;
 }
 
+.container-footer h4 {
+    padding-bottom: 1.5em;
+}
+
+footer li {
+    font-size: .8em;
+    display: block;
+    line-height: 1.7em;
+}
+
+.col-drop {
+    border-bottom: 1px solid white;
+}
+
+.end-footer {
+    font-size: .7em;
+}
